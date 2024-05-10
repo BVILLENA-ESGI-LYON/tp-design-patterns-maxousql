@@ -1,8 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zWhrMTDz)
-# TP Design patterns
+# TP Design Patterns
+> Implémenter les solutions de chacun des design patterns vus en cours
 
-* Projet vierge en PHP > 8.0 (idéalement 8.3) initialisé avec composer.
-* Inspiration du projet BDE Challenge Stack PHP (sans Front).
-* Définissez des scripts php "simples".
-  - Programmation Orientée Objet **obligatoire**.
-  - Un minimum organisé avec des dossiers et des namespaces cohérents.
+## Installation
+
+Pour installer les dépendances lié à l'autoloader.
+```sh
+composer install
+```
+
+```sh
+composer dump-autoload
+```
+
+## Utilisation des tests 
+
+Afin d'obtenir une meilleur expérience utilisateur, je vous conseil fortement d'ouvir un terminal en plein écran.
+
+Placez-vous à la racine du projet et exécutez cette commande :
+
+```sh
+php -f .\ressources-tests\main-test.php
+```
+
+Ce script va vous ouvrir un panel regroupant l'ensemble des scripts de test, vous pouvez donc naviguer entre eux pour tester.
